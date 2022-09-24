@@ -1,0 +1,106 @@
+* {
+    -fx-primary :#2A2E37;
+    -fx-secondary : #FFFF8D;
+    -fx-primaryText : CDCDCD;
+}
+
+.root{
+    -fx-background-color: -fx-primary;
+    
+}
+
+/* add book css*/
+.glyph-icon{
+    -fx-fill:#F0F0F0; 
+    -fx-text-fill: whitesmoke;
+
+}
+
+.login{
+    -fx-border-color: -fx-secondary;
+    -fx-border-radius: 20px;
+    -fx-background-color: transparent;
+    -fx-background-radius: 20px;
+    -fx-text-fill: whitesmoke;
+}
+
+.login:hover{
+    -fx-border-radius: 20px;
+    -fx-text-fill: black;
+    -fx-background-color: -fx-secondary;
+    -fx-background-radius: 20px;
+}
+.cancel{
+    -fx-border-color:-fx-secondary;
+    -fx-border-radius: 20px;
+    -fx-background-color: transparent;
+    -fx-text-fill: whitesmoke;
+        -fx-background-radius: 20px;
+
+}
+.cancel:hover{
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-background-color: #F92434;
+    -fx-text-fill: black;
+}
+
+.jfxtext-field{
+    -fx-text-fill: whitesmoke;
+    -fx-font-size:13pt;
+    -Jfx-focus-color:-fx-secondary;
+}
+.jlabel{
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size:25px;
+}
+.text-field:hover{
+    -fx-text-fill: -fx-primaryText;
+    -fx-font-size:13pt;
+    -fx-focus-color:-fx-secondary; 
+}
+/* dashboard css*/
+
+/*Tabpane styling*/
+
+
+.txtcolor{
+     -fx-text-fill: whitesmoke;
+}
+.tab{
+    -fx-background-color: -fx-primary;
+    -fx-pref-height:  60;
+    -fx-pref-width:180;
+}
+.tab-header-background{
+     -fx-background-color: -fx-primary;
+}
+/* menu bar styling*/
+.menu-bar{
+    -fx-base:-fx-primary;
+    -fx-background-color: -fx-primary;
+    -fx-font-family:sans-serif;
+}
+.context-menu{
+    -fx-background-color: derive(-fx-primary,20%);
+}
+.btn{
+    -fx-text-fill:-fx-secondary;
+    -fx-background-color: -fx-primary;
+}
+
+.btn:hover{
+    -fx-border-radius:20px;
+    -fx-background-color: -fx-secondary;
+    -fx-text-fill: black;
+}
+
+
+
+#rs{
+    -fx-background-color: -fx-primary;
+}
+
+.btnvbox{
+    -fx-background-color: -fx-primary;
+}

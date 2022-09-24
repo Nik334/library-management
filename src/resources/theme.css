@@ -1,0 +1,73 @@
+* {
+    -fx-primary : #0000FF;
+    -fx-seconadry : #FFFF8D;
+    -fx-primaryText : black;
+}
+
+.root{
+    -fx-background-color: -fx-primary;
+}
+
+#userNameLibrarian{
+    -fx-text-fill:black;
+}
+
+#forgetpwd{
+     -fx-text-fill: whitesmoke;
+}
+
+#passwordLibrarian{
+    -fx-text-fill:black;
+}
+
+.text-field
+{
+    -fx-text-fill: whitesmoke;
+}
+.txtcolor
+{
+    -fx-text-fill: #AF9447;
+}
+.frgtpwd
+{
+    -fx-text-fill: whitesmoke;
+}
+.pane{
+    -fx-background-color: #FFFFFF;
+}
+.login{
+    -fx-border-color: #009800;
+    -fx-border-radius: 20px;
+    -fx-background-color: transparent;
+    -fx-text-fill: -fx-primaryText;
+/*    -fx-background-color: #009800;*/
+}
+
+.login:hover{
+    -fx-border-radius: 20px;
+    -fx-text-fill: whitesmoke;
+    -fx-background-color: #009800;
+    -fx-background-radius: 20px;
+}
+.cancel{
+    -fx-border-color: #F92434;
+    -fx-border-radius: 20px;
+    -fx-background-color: transparent;
+    -fx-text-fill: -fx-primaryText;
+}
+.cancel:hover{
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-background-color: #F92434;
+    -fx-text-fill: -fx-primaryText;
+}
+
+.text-field:hover{
+    -fx-text-fill: -fx-primaryText;
+    -fx-font-size:13pt;
+    -fx-focus-color:-fx-secondary; 
+}
+.label{
+    -fx-text-fill: black;
+    -fx-font-size:18pt;
+}

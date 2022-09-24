@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="rootPane" prefHeight="489.0" prefWidth="405.0" styleClass="root" stylesheets="@../../../../resources/dark.theme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.library.app.settings.SettingsController">
+   <children>
+      <JFXTextField alignment="CENTER" focusColor="#ffff8d" labelFloat="true" layoutX="43.0" layoutY="111.0" prefHeight="44.0" prefWidth="291.0" promptText="Member  ID">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField alignment="CENTER" focusColor="#ffff8d" labelFloat="true" layoutX="43.0" layoutY="181.0" prefHeight="44.0" prefWidth="291.0" promptText="Old Password">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <padding>
+            <Insets top="20.0" />
+         </padding>
+      </JFXTextField>
+      <JFXTextField alignment="CENTER" focusColor="#ffff8d" labelFloat="true" layoutX="43.0" layoutY="255.0" prefHeight="44.0" prefWidth="291.0" promptText="New Password">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <padding>
+            <Insets top="15.0" />
+         </padding>
+      </JFXTextField>
+      <JFXTextField alignment="CENTER" focusColor="#ffff8d" labelFloat="true" layoutX="43.0" layoutY="335.0" prefHeight="44.0" prefWidth="291.0" promptText="Confirm Password">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </JFXTextField>
+      <JFXButton layoutX="43.0" layoutY="421.0" prefHeight="43.0" prefWidth="122.0" styleClass="login" stylesheets="@../../../../resources/dark.theme.css" text="Save">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="219.0" layoutY="421.0" prefHeight="43.0" prefWidth="122.0" styleClass="cancel" stylesheets="@../../../../resources/dark.theme.css" text="Cancel">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </JFXButton>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="50.0" layoutY="25.0" prefHeight="50.0" prefWidth="291.0" text="Update Password" textAlignment="CENTER" textFill="#ffff8d" underline="true">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
